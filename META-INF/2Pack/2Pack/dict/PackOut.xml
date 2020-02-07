@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><idempiere Name="NOTIFICACIONES" Version="1v" idempiereVersion="" DataBaseVersion="" Description="Plugin de Notificaciones Idempiere permite disparar alertar custumizadas de Tablas y Procesos." Author="" AuthorEmail="osmar.benavidez@gmail.com" CreatedDate="2016-10-04 11:42:17.836" UpdatedDate="2016-10-04 13:50:36.111" PackOutVersion="100" UpdateDictionary="false" Client="0-SYSTEM-System" AD_Client_UU="11237b53-9592-4af1-b3c5-afd216514b5d">
+    <AD_ModelValidator type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <IsActive>Y</IsActive>
+        <Name>Validador de Modelo de las Notificaciones</Name>
+        <Description>Notificaciones de tablas y procesos</Description>
+        <Help/>
+        <EntityType>U</EntityType>
+        <ModelValidationClass>ni.idempiere.model.NotificationValidator</ModelValidationClass>
+        <SeqNo>0</SeqNo>
+        <AD_ModelValidator_UU>74772f9e-a9b9-4bb8-81e8-1723b957b316</AD_ModelValidator_UU>
+        <AD_Reference_Trl type="translation">
+            <Help/>
+            <Name>LCO_ISIC_ID</Name>
+            <Description/>
+            <AD_Language>es_NI</AD_Language>
+            <IsActive>Y</IsActive>
+            <IsTranslated>N</IsTranslated>
+        </AD_Reference_Trl>
+    </AD_ModelValidator>
+    <AD_Menu type="table">
+        <Parent_ID reference="id">158</Parent_ID>
+        <SeqNo>3</SeqNo>
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Name>Notifications</Name>
+        <Description/>
+        <Action>W</Action>
+        <AD_Window_ID reference="uuid" reference-key="AD_Window">8f315c93-59f3-48b3-8196-2cfcef9b0b06</AD_Window_ID>
+        <AD_Workflow_ID reference="id"/>
+        <AD_Task_ID reference="id"/>
+        <IsActive>Y</IsActive>
+        <IsSummary>N</IsSummary>
+        <AD_Process_ID reference="id"/>
+        <IsSOTrx>N</IsSOTrx>
+        <AD_Form_ID reference="id"/>
+        <IsReadOnly>N</IsReadOnly>
+        <EntityType>U</EntityType>
+        <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+        <AD_Menu_UU>5019f6b3-f851-4a0c-b634-3ec4d69264d1</AD_Menu_UU>
+        <AD_InfoWindow_ID reference="id"/>
+        <AD_Menu_Trl type="translation">
+            <Name>Notificaciones</Name>
+            <Description/>
+            <AD_Language>es_NI</AD_Language>
+            <IsActive>Y</IsActive>
+            <IsTranslated>N</IsTranslated>
+        </AD_Menu_Trl>
+    </AD_Menu>
+</idempiere>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="ni.idempiere.notification.modelvalidator.event">
+   <implementation class="ni.idempiere.model.NotificationValidator"/>
+   <reference bind="bindEventManager" cardinality="1..1" interface="org.adempiere.base.event.IEventManager" name="IEventManager" policy="static" unbind="unbindEventManager"/>
+   <property name="service.ranking" type="Integer" value="5"/>
+</scr:component>
